@@ -1,0 +1,11 @@
+package tekrarÝnheritance;
+
+public class Uygulama extends Deneme {
+     //deðþkenler private olduðu için super ile yapýlandýrýcý yazmak gerekiyor
+	public Uygulama(int sayi, String yazi, String metin) {
+		super(sayi, yazi, metin);
+	
+	}
+	
+
+}
